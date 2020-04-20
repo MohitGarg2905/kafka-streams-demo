@@ -1,6 +1,5 @@
 package com.kafka.commons;
 
-import com.kafka.oth.PropertiesUtils;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 

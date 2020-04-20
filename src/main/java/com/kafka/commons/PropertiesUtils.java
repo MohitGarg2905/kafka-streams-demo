@@ -1,4 +1,4 @@
-package com.kafka.oth;
+package com.kafka.commons;
 
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;

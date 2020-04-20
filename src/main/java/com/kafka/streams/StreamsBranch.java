@@ -1,15 +1,8 @@
 package com.kafka.streams;
 
-import com.kafka.oth.PropertiesUtils;
-import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
-import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.PostConstruct;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutionException;
 
 import static com.kafka.commons.Topics.*;
 
