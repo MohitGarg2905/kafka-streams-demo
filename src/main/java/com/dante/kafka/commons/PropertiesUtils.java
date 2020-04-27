@@ -1,4 +1,4 @@
-package com.kafka.commons;
+package com.dante.kafka.commons;
 
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;

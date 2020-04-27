@@ -1,6 +1,6 @@
-package com.kafka.streams;
+package com.dante.kafka.streams;
 
-import com.kafka.commons.PropertiesUtils;
+import com.dante.kafka.commons.PropertiesUtils;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.Topology;

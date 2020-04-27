@@ -1,14 +1,12 @@
-package com.kafka.streams;
+package com.dante.kafka.streams;
 
-import org.apache.kafka.streams.KeyValue;
+import com.dante.kafka.commons.Topics;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.stereotype.Component;
 
 import java.util.LinkedList;
 import java.util.List;
-
-import static com.kafka.commons.Topics.*;
 
 @Component
 public class StreamsFlatMap extends StreamsBase{
@@ -24,10 +22,10 @@ public class StreamsFlatMap extends StreamsBase{
                     return result;
                 }
         );
-        output.to(FLAT_MAP_OUTPUT_TOPIC);
+        output.to(Topics.FLAT_MAP_OUTPUT_TOPIC);
     }
 
     protected String getInputTopic() {
-        return FLAT_MAP_INPUT_TOPIC;
+        return Topics.FLAT_MAP_INPUT_TOPIC;
     }
 }

@@ -1,4 +1,4 @@
-package com.kafka.commons;
+package com.dante.kafka.commons;
 
 public class Topics {
 

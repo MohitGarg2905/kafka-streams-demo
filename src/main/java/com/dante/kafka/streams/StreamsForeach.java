@@ -1,13 +1,9 @@
-package com.kafka.streams;
+package com.dante.kafka.streams;
 
+import com.dante.kafka.commons.Topics;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.stereotype.Component;
-
-import java.util.LinkedList;
-import java.util.List;
-
-import static com.kafka.commons.Topics.*;
 
 @Component
 public class StreamsForeach extends StreamsBase{
@@ -20,6 +16,6 @@ public class StreamsForeach extends StreamsBase{
     }
 
     protected String getInputTopic() {
-        return FOREACH_INPUT_TOPIC;
+        return Topics.FOREACH_INPUT_TOPIC;
     }
 }

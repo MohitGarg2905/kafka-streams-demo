@@ -1,12 +1,10 @@
-package com.kafka.streams;
+package com.dante.kafka.streams;
 
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.stereotype.Component;
 
-import java.util.Locale;
-
-import static com.kafka.commons.Topics.*;
+import static com.dante.kafka.commons.Topics.*;
 
 @Component
 public class StreamsSelectKey extends StreamsBase{
